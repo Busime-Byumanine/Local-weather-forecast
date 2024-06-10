@@ -1,0 +1,37 @@
+                                     Busime Byumanine  
+ST10452732
+
+The application that would is going into development is a Wheather App for a wheather oragasation that is loacal. 
+The application needs to provide the average temprture for the week and also provide the user to a more detailed
+version of the wheather for each and every day.
+
+                             
+stat   // inazalization of variables
+declartion
+num temp
+num tempAverage
+num totalTemp
+num temp[7] = 1,2,3,4,5,6,7
+num Maxtemp 
+num Mintemp 
+num tempAverage = 0
+string weekly_Weather
+string weekly_weather[7] = "Monday" "Tuesday" "Wensday" "Thursday" "Friday" "Saturday" "Sunday"
+index = 0
+
+for count = 0 to 6 Step 1
+    output (count + 1) + " "
+    input Average temp 
+    output "num MaxTemp" -  num MinTemp + ""
+     input  num tempAverage
+
+  endfor
+
+  num averageTemp = 0
+ for num count = 0 to 7 Step 1
+   tempAverage = num maxTemp - num MinTemp
+  endfor
+if num totalTemp = 7
+ output "The average tempreture today is" 
+
+ ![image](https://github.com/Busime-Byumanine/Local-weather-forecast/assets/166102405/d332411a-3a21-407b-a090-a29f99fea9ee)
